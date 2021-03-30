@@ -1,0 +1,173 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Ranking'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+0:
+  COMMAND: 'op:chestcommands open menu; sound: ORB PICKUP'
+  NAME: '&aQuay lại'
+  LORE:
+  ID: ARROW
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+1:
+  COMMAND: 'spawn'
+  NAME: '&aVIP'
+  LORE:
+    - '&8Rank'
+    - ''
+    - '&7Quyền lợi ↴'
+    - ''
+    - '⁎ &a/fly &7(&achỉ dùng được ở sảnh&7)'
+    - '⁎ &aĐược nhận Full hiệu ứng'
+    - ''
+    - '&7Giá: &620K &7(&6100 POINT&7)'
+    - ''
+    - '&eNhấp vào để mua hạng'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+2:
+  COMMAND: 'swprojectiletrail gui'
+  NAME: '&aVIP&6+'
+  LORE:
+    - '&8Rank'
+    - ''
+    - '&7Quyền lợi ↴'
+    - ''
+    - '⁎ &a/fly &7(&achỉ dùng được ở sảnh&7)'
+    - '⁎ &aĐược nhận Full hiệu ứng'
+    - ''
+    - '&7Giá: &640K &7(&6200 POINT&7)'
+    - ''
+    - '&eNhấp vào để mua hạng'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+3:
+  COMMAND: 'spawn'
+  NAME: '&bMVP'
+  LORE:
+    - '&8Rank'
+    - ''
+    - '&7Quyền lợi ↴'
+    - ''
+    - '⁎ &a/fly &7(&achỉ dùng được ở sảnh&7)'
+    - '⁎ &aĐược nhận Full hiệu ứng'
+    - ''
+    - '&7Giá: &650K &7(&6250 POINT&7)'
+    - ''
+    - '&eNhấp vào để mua hạng'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+4:
+  COMMAND: 'swprojectiletrail gui'
+  NAME: '&bMVP&c+'
+  LORE:
+    - '&8Rank'
+    - ''
+    - '&7Quyền lợi ↴'
+    - ''
+    - '⁎ &a/fly &7(&achỉ dùng được ở sảnh&7)'
+    - '⁎ &aĐược nhận Full hiệu ứng'
+    - ''
+    - '&7Giá: &670K &7(&6400 POINT&7)'
+    - ''
+    - '&eNhấp vào để mua hạng'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+5:
+  COMMAND: 'spawn'
+  NAME: '&6MVP&c++'
+  LORE:
+    - '&8Rank'
+    - ''
+    - '&7Quyền lợi &l↴'
+    - ''
+    - '⁎ &a/fly &7(&achỉ dùng được ở sảnh&7)'
+    - '⁎ &a/emojis &7(&asử dụng emojis thêm chút quyền lực&7)'
+    - '⁎ &a/staff &7(&acó thể nhắn với STAFF' 
+    - '&ađể được hỗ trợ, cho vui,'
+    - '&alạm dụng quá sẽ bị xóa quyền!&7)'
+    - '⁎ &a/kaboom &7(&adùng để giao lưu với' 
+    - '&acác thành viên khác cho vui,'
+    - '&alạm dụng quá sẽ bị xóa quyền!&7)'
+    - '⁎ &aĐược nhận Full hiệu ứng'
+    - ''
+    - '&7Giá: &680K &7(&6600 POINT&7)'
+    - ''
+    - '&eNhấp vào để mua hạng'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+6:
+  COMMAND: 'swprojectiletrail gui'
+  NAME: '&cYOUTUBE'
+  LORE:
+    - '&8Rank'
+    - ''
+    - '&7Quyền lợi &l&l↴'
+    - ''
+    - '⁎ &a/fly &7(&achỉ dùng được ở sảnh&7)'
+    - '⁎ &a/emojis &7(&asử dụng emojis thêm chút quyền lực&7)'
+    - '⁎ &a/staff &7(&acó thể nhắn với STAFF' 
+    - '&ađể được hỗ trợ, cho vui,'
+    - '&alạm dụng quá sẽ bị xóa quyền!&7)'
+    - '⁎ &a/kaboom &7(&adùng để giao lưu với' 
+    - '&acác thành viên khác cho vui,'
+    - '&alạm dụng quá sẽ bị xóa quyền!&7)'
+    - '⁎ &aĐược nhận Full hiệu ứng'
+    - ''
+    - '&7Giá: &cNull'
+    - ''
+    - '&eNhấp vào để mua hạng'
+  ID: 323
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1

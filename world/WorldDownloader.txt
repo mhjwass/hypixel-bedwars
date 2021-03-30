@@ -1,0 +1,4 @@
+#These settings are used for a single world in a multiworld server.
+#Fri Aug 16 13:37:17 CST 2019
+WorldName=Hypixel be map
+LastSaved=1565933837725

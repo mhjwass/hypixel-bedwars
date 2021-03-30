@@ -1,0 +1,80 @@
+#                                ___                                                   ___
+#      ___                      /\__\                     _____                       /\__\
+#     /\  \        ___         /:/ _/_       ___         /::\  \                     /:/ _/_
+#     \:\  \      /\__\       /:/ /\  \     /\__\       /:/\:\  \                   /:/ /\__\
+#      \:\  \    /:/__/      /:/ /::\  \   /:/__/      /:/ /::\__\   ___     ___   /:/ /:/ _/_
+#  ___  \:\__\  /::\  \     /:/_/:/\:\__\ /::\  \     /:/_/:/\:|__| /\  \   /\__\ /:/_/:/ /\__\
+# /\  \ |:|  |  \/\:\  \__  \:\/:/ /:/  / \/\:\  \__  \:\/:/ /:/  / \:\  \ /:/  / \:\/:/ /:/  /
+# \:\  \|:|  |   ~~\:\/\__\  \::/ /:/  /   ~~\:\/\__\  \::/_/:/  /   \:\  /:/  /   \::/_/:/  /
+#  \:\__|:|__|      \::/  /   \/_/:/  /       \::/  /   \:\/:/  /     \:\/:/  /     \:\/:/  /
+#   \::::/__/       /:/  /      /:/  /        /:/  /     \::/  /       \::/  /       \::/  /
+#    ~~~~           \/__/       \/__/         \/__/       \/__/         \/__/         \/__/
+
+ADMIN_PLAYER:
+  LANGUAGE: 'en_US'
+  MYSQL:
+    ENABLED: false
+    USE_SSL: false
+    HOST: 'localhost'
+    PORT: 3306
+    DATABASE: 'bedwars'
+    USER: 'root'
+    PASSWORD: 'Pastaseca2'
+    RECONNECT: 600
+PLAYER_ITEM:
+  GLOBAL:
+    PREFIX: '&r'
+    ITEM_PLAYER: 7
+    TOGGLE_DELAY_IN_SECOND: 3
+    WORLD_WHITELIST:
+      - 'Lobby'
+    SETTINGS:
+      ITEM_DROPPABLE: false
+      ITEM_MOVEMENT: true
+      ITEM_GIVE_ON_RESPAWN: true
+      ITEM_GIVE_ON_JOIN: true
+      ITEM_NO_DROP_ON_DEATH: true
+  VISIBLE_ITEM:
+    TITLE: '&fPlayers: &aVisible &7(Right Click)'
+    MATERIAL: 'LIME_DYE'
+    LORE:
+      - '&7Right-click to toggle players visibility!'
+  IN_VISIBLE_ITEM:
+    TITLE: '&fPlayers: &cHidden &7(Right Click)'
+    MATERIAL: 'GRAY_DYE'
+    LORE:
+      - '&7Right-click to toggle players visibility!'
+COMMANDS:
+  GLOBAL:
+    FIREWORK:
+      USE_FIREWORK: true
+      COLORS:
+        - 'YELLOW'
+        - 'WHITE'
+        - 'AQUA'
+        - 'BLUE'
+        - 'FUCHSIA'
+        - 'GRAY'
+        - 'MAROON'
+        - 'NAVY'
+        - 'OLIVE'
+        - 'ORANGE'
+        - 'PURPLE'
+        - 'RED'
+        - 'TEAL'
+        - 'YELLOW'
+
+# DO NOT TOUCH!
+version: "1.0"
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

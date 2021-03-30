@@ -1,0 +1,10 @@
+Server-MOTD: 
+  Line-1: "             &aHypixel Network  &c[1.8-1.15]"
+  Line-2: "     &e&lSKYBLOCK PETS UPDATE! &7&l➜ &a&lNOW LIVE"
+
+JoinGame-MOTD:
+  Enabled: false
+  Messages:
+    - 'default motd'
+
+Max-Players: 50

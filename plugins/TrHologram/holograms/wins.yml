@@ -1,0 +1,35 @@
+Location: world~-4.5,76,-28.5
+
+Contents:
+  - '&b&lLifetime Wins'
+  - '&7All modes'
+  - ''
+  - '&e1. %ajleaderboards_board_bw1058_stats_wins_1_suffix%%ajleaderboards_board_bw1058_stats_wins_1_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_1_value%{update:2}'
+  - ''
+  - '&e2. %ajleaderboards_board_bw1058_stats_wins_2_suffix%%ajleaderboards_board_bw1058_stats_wins_2_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_2_value%{update:2}'
+  - ''
+  - '&e3. %ajleaderboards_board_bw1058_stats_wins_3_suffix%%ajleaderboards_board_bw1058_stats_wins_3_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_3_value%{update:2}'
+  - ''
+  - '&e4. %ajleaderboards_board_bw1058_stats_wins_4_suffix%%ajleaderboards_board_bw1058_stats_wins_4_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_4_value%{update:2}'
+  - ''
+  - '&e5. %ajleaderboards_board_bw1058_stats_wins_5_suffix%%ajleaderboards_board_bw1058_stats_wins_5_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_5_value%{update:2}'
+  - ''
+  - '&e6. %ajleaderboards_board_bw1058_stats_wins_6_suffix%%ajleaderboards_board_bw1058_stats_wins_6_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_6_value%{update:2}'
+  - ''
+  - '&e7. %ajleaderboards_board_bw1058_stats_wins_7_suffix%%ajleaderboards_board_bw1058_stats_wins_7_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_7_value%{update:2}'
+  - ''
+  - '&e8. %ajleaderboards_board_bw1058_stats_wins_8_suffix%%ajleaderboards_board_bw1058_stats_wins_8_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_8_value%{update:2}'
+  - ''
+  - '&e9. %ajleaderboards_board_bw1058_stats_wins_9_suffix%%ajleaderboards_board_bw1058_stats_wins_9_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_9_value%{update:2}'
+  - ''
+  - '&e10. %ajleaderboards_board_bw1058_stats_wins_10_suffix%%ajleaderboards_board_bw1058_stats_wins_10_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_wins_10_value%{update:2}'

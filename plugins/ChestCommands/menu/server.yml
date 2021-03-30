@@ -1,0 +1,81 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&8Game Menu'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 6
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # OPTIONAL
+  # This command command will be executed when the menu is closed.
+  # Supports all the icon command types.
+  close-action: ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+1:
+  NAME: '&aMain Lobby'
+  COMMAND: 'tell: &aLobby server is not running!'
+  LORE:
+   - ''
+   - '&7Return to the Main Lobby'
+  ID: '47'
+  POSITION-X: 1
+  POSITION-Y: 2
+2:
+  NAME: '&aBed Wars'
+  COMMAND: 'tell: &cYou are already in Bed Wars Lobby'
+  LORE:
+   - '&8Team Survival'
+   - ''
+   - '&7Protect your bed along with your'
+   - '&7teammates and destroy enemy beds'
+   - '&7to win!'
+   - ''
+   - '&aClick to Connect'
+   - '&7%server_online% currently playing'
+  ID: 'bed'
+  POSITION-X: 5
+  POSITION-Y: 2
+3:
+  NAME: '&c???'
+  ID: '160:14'
+  SLOT: '19,28,12,13,15-17,30-35,39-44'
+  KEEP-OPEN: true

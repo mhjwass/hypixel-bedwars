@@ -1,0 +1,42 @@
+
+   ____ ____  _                 
+  / ___/ ___|(_) __ _ _ __  ___ 
+ | |  _\___ \| |/ _` | '_ \/ __|
+ | |_| |___) | | (_| | | | \__ \
+  \____|____/|_|\__, |_| |_|___/
+                |___/           
+
+Developed by StylexTV   ███╗░░██╗░█████╗░██╗░░░██╗███╗░░██╗██████╗░░██████╗███████╗███╗░░░███╗██████╗░░█████╗░██╗ ████╗░██║██╔══██╗╚██╗░██╔╝████╗░██║██╔══██╗██╔════╝██╔════╝████╗░████║██╔══██╗██╔══██╗██║ ██╔██╗██║███████║░╚████╔╝░██╔██╗██║██║░░██║╚█████╗░█████╗░░██╔████╔██║██████╔╝███████║██║ ██║╚████║██╔══██║░░╚██╔╝░░██║╚████║██║░░██║░╚═══██╗██╔══╝░░██║╚██╔╝██║██╔═══╝░██╔══██║██║ ██║░╚███║██║░░██║░░░██║░░░██║░╚███║██████╔╝██████╔╝███████╗██║░╚═╝░██║██║░░░░░██║░░██║██║ ╚═╝░░╚══╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚══╝╚═════╝░╚═════╝░╚══════╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚═╝ Leaker                   # The maximum distance, in
+# blocks, from which the
+# signs are visible.
+# 
+# type: Integer
+# range: 4 - 128
+viewing_distance: 30
+
+# The maximum number of maps
+# sent to a single player per
+# 3 ticks.
+# 
+# type: Integer
+# range: 1 - 100
+map_transmission_rate: 40
+
+# The amount of map IDs (in
+# thousands) that are kept
+# for the vanilla gameplay
+# and therefore are not used
+# by this plugin.
+# 
+# type: Integer
+# range: 6 - 20
+reserved_vanilla_maps: 12
+
+# The language in which the
+# plugin will display
+# messages and other texts.
+# 
+# type: String
+# options: english_us, german_de, french_fr, chinese_cn
+language: english_us
+

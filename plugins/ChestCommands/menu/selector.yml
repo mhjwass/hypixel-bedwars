@@ -1,0 +1,73 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&8Main Lobby Selector'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 1
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # OPTIONAL
+  # This command command will be executed when the menu is closed.
+  # Supports all the icon command types.
+  close-action: ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1:
+  NAME: '&cBed Wars Lobby #1'
+  COMMAND: 'tell: &cYou are already in Bed Wars Lobby #1'
+  LORE:
+   - '&7Players: %server_online%/50'
+   - ''
+   - '&cAlready connected!'
+  ID: '159:14'
+  POSITION-X: 1
+  POSITION-Y: 1
+2:
+  NAME: '&aBed Wars Lobby #2'
+  COMMAND: 'tell: &aBed Wars Lobby #2 server is not running!'
+  LORE:
+   - '&7Players: 0/50'
+   - ''
+   - '&eClick to Connect!'
+  ID: '155'
+  POSITION-X: 2
+  POSITION-Y: 1

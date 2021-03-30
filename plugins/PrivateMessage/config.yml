@@ -1,0 +1,34 @@
+# Plugin: PrivateMessage
+# Author: Asterix06
+# Version: 1.3
+# Discord (follow news & report issues): https://discord.gg/srF35p9
+# Support me here: https://streamlabs.com/theasterix06/
+
+privateMessages:
+  messages:
+    sendMessage: "&2Đến &a%recipient%&f: %message%"
+    fromMessage: "&2Từ &a%sender%&f: %message%"
+  errors:
+    messageYourself: "&cAnh bạn! Bạn không thể gửi tin nhắn cho chính mình."
+    playerOffline: "&cXin lỗi %player% đang ngoại tuyến!"
+    noMessage: "&cVui lòng thêm một tin nhắn. Sử dụng: &o/%command% %player% <nội dụng>"
+    noRecipient: "&cSử dụng: &o/%command% <người chơi> <nội dụng>"
+    replyNoMessage: "&cVui lòng thêm một tin nhắn. Sử dụng: &o/%command% <nội dụng>"
+    replyFailed: "&cXin lỗi nhưng người chơi đang ngoại tuyến hoặc bạn không bao giờ gửi tin nhắn tới anh bạn đó."
+    replyFailedConsole: "&cBạn không phải là người chơi."
+
+socialspy:
+  messages:
+    fromOtherPlayers: "&2From &a%sender%&2 to &a%recipient%&2: &a%message%"
+    enabled: "&7SocialSpy &aenabled&7."
+    disabled: "&7SocialSpy &cdisabled&7."
+  errors:
+    alreadyEnabled: "&cSocialspy is already enabled."
+    alreadyDisabled: "&cSocialspy is not enabled."
+    consoleIsNotAllowed: "&cSorry but the console cannot use this feature (because you already see everything :D)."
+  help:
+    usage: "&cSử dụng: &o/%command% <on/off>"
+    infoON: "&7Thông tin: socialspy đang &aBẬT&7."
+    infoOFF: "&7Thông tin: socialspy đang &cTẮT&7."
+
+configReloaded: "&aRELOAD!"

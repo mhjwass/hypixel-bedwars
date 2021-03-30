@@ -1,0 +1,136 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&8Ranks'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 6
+
+  # OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # OPTIONAL
+  # This command command will be executed when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # OPTIONAL
+  # This command command will be executed when the menu is closed.
+  # Supports all the icon command types.
+  close-action: ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+vip:
+  NAME: '&aVIP'
+  LORE:
+  ID: 160
+  DATA-VALUE: 5
+  SLOT: 10
+  
+vip+:
+  NAME: ''
+  LORE:
+  ID: 160
+  DATA-VALUE: 5
+  SLOT: 10
+  KEEP-OPEN: true
+  
+mvp:
+  NAME: ''
+  LORE:
+  ID: 160
+  DATA-VALUE: 5
+  SLOT: 10
+  KEEP-OPEN: true
+  
+mvp+:
+  NAME: ''
+  LORE:
+  ID: 160
+  DATA-VALUE: 5
+  SLOT: 10
+  KEEP-OPEN: true
+  
+mvp++:
+  NAME: ''
+  LORE:
+  ID: 160
+  DATA-VALUE: 5
+  SLOT: 10
+  KEEP-OPEN: true
+  
+enderchest:
+  COMMAND: 'op: cc open mysterybox; sound: LEVEL UP'
+  NAME: '&aMystery Boxes'
+  LORE:
+  ID: ender_chest
+  SLOT: 2
+  KEEP-OPEN: true
+  
+emerald:
+  COMMAND: 'sound: ENDERMAN_TELEPORT'
+  NAME: '&aRanks'
+  LORE:
+  ID: emerald
+  SLOT: 1
+  KEEP-OPEN: true
+  
+gold:
+  NAME: '&eGold Wallet: &60 Gold'
+  LORE:
+  ID: gold_nugget
+  SLOT: 54
+  KEEP-OPEN: true
+  
+multislot:
+  NAME: ''
+  LORE:
+  ID: 160
+  DATA-VALUE: 7
+  SLOT: '10-18'
+  KEEP-OPEN: true
+  
+green:
+  NAME: ''
+  LORE:
+  ID: 160
+  DATA-VALUE: 5
+  SLOT: 10
+  KEEP-OPEN: true
+  
+close:
+  NAME: '&aClose'
+  LORE:
+  ID: barrier
+  POSITION-X: 1
+  POSITION-Y: 6

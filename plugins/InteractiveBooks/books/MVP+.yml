@@ -1,0 +1,16 @@
+name: Server
+title: Server
+author: Server
+generation: ORIGINAL
+lore:
+- Purchase Confirmation
+open_command: ''
+
+pages:
+  '1':
+  - 'Your purchase has been processed!'
+  - ''
+  - 'You''ve received the following items:'
+  - ' ▪ &bMVP&c+ &0Rank'
+  - ''
+  - 'If you have any problems, <tooltip:&eClick to subscribe to youtube channel><link:https://www.youtube.com/channel/UCGwARNuEZpl6Nim0lQEY12w?view_as=subscriber>&5&l&ncontact support<reset>&r&0.'

@@ -1,0 +1,224 @@
+groups:
+  Default:
+    options:
+      default: true
+      prefix: '&7'
+      suffix: '&7'
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.*
+    - gadgetsmenu.animations.*
+    - interactivebooks.open.1
+    - Mik1313.giftcode.use
+    - msg.sendmessage
+    - msg.console
+    - sign.selector
+    - delivery.vote1
+    - delivery.unique1
+    - delivery.free
+    - chestcommands.open.*.yml
+    - chestcommands.command.open
+    - bw.shout
+  VIP:
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.vip
+    - bw.chatcolor
+    - bw.shout.bypass
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+    options:
+      rank: '6501'
+      prefix: '&a[VIP] '
+      suffix: '&a'
+    inheritance:
+    - Default
+  VIP+:
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.vip+
+    - bw.chatcolor
+    - bw.shout.bypass
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+    options:
+      rank: '650'
+      prefix: '&a[VIP&6+&a] '
+      suffix: '&a'
+    inheritance:
+    - Default
+    - VIP
+  MVP:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.mvp
+    - bw.chatcolor
+    - bw.shout.bypass
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+    options:
+      rank: '651'
+      prefix: '&b[MVP] '
+      suffix: '&b'
+  MVP+:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - delivery.mvp+
+    - bw.chatcolor
+    - bw.shout.bypass
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+    options:
+      prefix: '&b[MVP&c+&b] '
+      suffix: '&b'
+  MVP++:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cosmetics.*
+    - chatexpressions.useall
+    - bw.chatcolor
+    - bw.shout.bypass
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+    options:
+      prefix: '&6[MVP&c++&6] '
+      suffix: '&6'
+  ADMIN:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - chatexpressions.reload
+    - chatexpressions.useall
+    - fawe.admin
+    - cc.clear
+    - StaffChat.use
+    - broadcast.2
+    - simplekaboom.command.admin
+    - gadgetsmenu.cosmetics.*
+    - Mik1313.giftcode.add
+    - Mik1313.giftcode.del
+    - essentials.*
+    - vanish.use
+    - vanish.other
+    - vanish.list
+    - vanish.silentchest
+    - litebans.ban
+    - litebans.tempban
+    - litebans.ipban
+    - litebans.unban.own
+    - litebans.unban
+    - litebans.mute
+    - litebans.tempmute
+    - litebans.ipmute
+    - litebans.unmute.own
+    - litebans.warn
+    - litebans.unwarn.own
+    - litebans.unwarn
+    - litebans.kick
+    - litebans.kick.global
+    - litebans.history
+    - litebans.staffhistory
+    - litebans.banlist
+    - litebans.warnings
+    - litebans.dupeip
+    - litebans.ipreport
+    - litebans.geoip
+    - litebans.checkban
+    - litebans.checkmute
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.mutechat
+    - litebans.lastuuid
+    - admin.color
+    - multiverse.*
+    - multiverse.access.*
+    - worldedit.*
+    - worldguard.*
+    - skinsrestorer.cmds
+    - skinsrestorer.admincommand
+    - skinsrestorer.command
+    - bw.chatcolor
+    - bw.shout.bypass
+    options:
+      prefix: '&c[ADMIN] '
+      suffix: '&c'
+  YOUTUBE:
+    inheritance:
+    - Default
+    - VIP
+    - VIP+
+    - MVP
+    - MVP+
+    permissions:
+    - autosmelt.mine
+    - gadgetsmenu.cosmetics.*
+    - deliveryman.reward.mvp+
+    - deliveryman.reward.mvp+.coins
+    - deliveryman.reward.mvp
+    - deliveryman.reward.mvp.coins
+    - deliveryman.reward.vip
+    - deliveryman.reward.vip.coins
+    - deliveryman.reward.vip+
+    - deliveryman.reward.vip+.coins
+    - bw.chatcolor
+    - bw.shout.bypass
+    worlds:
+      world:
+        permissions:
+        - essentials.fly
+        - itemjoin.1
+    options:
+      prefix: '&c[&fYOUTUBE&c] '
+      suffix: '&c'
+schema-version: 1
+users:
+  f306be7f-fe11-30d1-a4fe-4841072d05dc:
+    group:
+    - MVP++
+    options:
+      name: Ducgaodo
+  3d482406-7d31-3611-bc19-a6116a17484a:
+    group:
+    - ADMIN
+    options:
+      name: MiniFlexJAV

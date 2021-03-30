@@ -1,0 +1,73 @@
+#                                ___                                                   ___
+#      ___                      /\__\                     _____                       /\__\
+#     /\  \        ___         /:/ _/_       ___         /::\  \                     /:/ _/_
+#     \:\  \      /\__\       /:/ /\  \     /\__\       /:/\:\  \                   /:/ /\__\
+#      \:\  \    /:/__/      /:/ /::\  \   /:/__/      /:/ /::\__\   ___     ___   /:/ /:/ _/_
+#  ___  \:\__\  /::\  \     /:/_/:/\:\__\ /::\  \     /:/_/:/\:|__| /\  \   /\__\ /:/_/:/ /\__\
+# /\  \ |:|  |  \/\:\  \__  \:\/:/ /:/  / \/\:\  \__  \:\/:/ /:/  / \:\  \ /:/  / \:\/:/ /:/  /
+# \:\  \|:|  |   ~~\:\/\__\  \::/ /:/  /   ~~\:\/\__\  \::/_/:/  /   \:\  /:/  /   \::/_/:/  /
+#  \:\__|:|__|      \::/  /   \/_/:/  /       \::/  /   \:\/:/  /     \:\/:/  /     \:\/:/  /
+#   \::::/__/       /:/  /      /:/  /        /:/  /     \::/  /       \::/  /       \::/  /
+#    ~~~~           \/__/       \/__/         \/__/       \/__/         \/__/         \/__/
+
+# ===================
+# Language: English =
+# By: Ruben_Artz    =
+# ===================
+
+MESSAGES_CHAT:
+  SHOWN_SUCCESSFULLY: '&aPlayers visibility enabled!'
+  HIDE_SUCCESSFULLY: '&cPlayers visibility disabled!'
+  MESSAGE_DELAY: '&cYou must wait &e{timeToWait}s &cbetween uses!'
+MESSAGES:
+  MESSAGE_AVATAR_URL:
+    - 'https://minotar.net/helm/{Player}/8.png'
+    - 'https://cravatar.eu/helmavatar/{Player}/8.png'
+    - 'https://mc-heads.net/avatar/{Player}/8'
+  MESSAGE_MAIN_COMMAND: '&7Main command (This).'
+  MESSAGE_HELP_HELP: '&7About the plugin.'
+  MESSAGE_HELP_BOX: '&7Click to see the plugin information.'
+  MESSAGE_RELOAD_BOX: '&7Click to reload the configuration.'
+  MESSAGE_RELOAD_HELP: '&7Reload the plugin config.'
+  MESSAGE_TOGGLE_MESSAGE: '&7Enable and disable players!'
+  MESSAGE_TOGGLE_BOX: '&7Click here to confirm the action.'
+  MESSAGE_TIP: '&f    &7&o(( Click on the command to execute the command. ))'
+  MESSAGE_USING: '&f   &7&o(( Use &f&o/bp help &7&oto get plugin information. ))'
+  MESSAGE_USE_BOX: '&7Click for information.'
+  MESSAGE_USE_ACTION: '&cClick on the message to get information about the plugin.'
+  MESSAGE_USE: '&7Usage: &6/gp toggle'
+  MESSAGE_CONSOLE: '&cYou cannot use this command in the console!'
+  MESSAGE_TITLE_PERMISSIONS:
+    - '<exclusive>;&7&o(( You do not have access ))'
+  MESSAGE_ACTION_PERMISSIONS: '&c&o(( You do not have access ))'
+  MESSAGE_AVATAR:
+    - ''
+    - '<center>&c&lERROR | UNDEFINED</center>'
+    - ''
+    - '<center>&cOnly Administrators</center>'
+    - ''
+    - '<center>&eCopyright <c> 2020</center>'
+    - ''
+    - ''
+  MESSAGE_RELOAD_TITLE:
+    - '<exclusive>;&7(( All configurations are restarte. ))'
+  MESSAGE_RELOAD_SUCCESS:
+    - '&aRecharging Plugin ...'
+    - '&aPlugin Loaded Correctly!'
+SOUNDS:
+  NO_PERMISSIONS: 'ENDERDRAGON_GROWL; 10.0f; 10.0f'
+  HELP_COMMAND: 'EXPLODE; 10.0f; 10.0f'
+  RELOAD_CONFIG: 'VILLAGER_YES; 10.0f; 10.0f'
+MESSAGE_NO_WORLD: '&cYou cannot use this command in this world!'
+
+#      ___           ___
+#     /\__\         /\  \         _____
+#    /:/ _/_        \:\  \       /::\  \
+#   /:/ /\__\        \:\  \     /:/\:\  \
+#  /:/ /:/ _/_   _____\:\  \   /:/  \:\__\
+# /:/_/:/ /\__\ /::::::::\__\ /:/__/ \:|__|
+# \:\/:/ /:/  / \:\~~\~~\/__/ \:\  \ /:/  /
+#  \::/_/:/  /   \:\  \        \:\  /:/  /
+#   \:\/:/  /     \:\  \        \:\/:/  /
+#    \::/  /       \:\__\        \::/  /
+#     \/__/         \/__/         \/__/

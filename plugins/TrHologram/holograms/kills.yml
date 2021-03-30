@@ -1,0 +1,35 @@
+Location: world~1.5,76,-28.5
+
+Contents:
+  - '&b&lLifetime Kills'
+  - '&7All modes'
+  - ''
+  - '&e1. %ajleaderboards_board_bw1058_stats_total_kills_1_suffix%%ajleaderboards_board_bw1058_stats_total_kills_1_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_1_value%{update:2}'
+  - ''
+  - '&e2. %ajleaderboards_board_bw1058_stats_total_kills_2_suffix%%ajleaderboards_board_bw1058_stats_total_kills_2_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_2_value%{update:2}'
+  - ''
+  - '&e3. %ajleaderboards_board_bw1058_stats_total_kills_3_suffix%%ajleaderboards_board_bw1058_stats_total_kills_3_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_3_value%{update:2}'
+  - ''
+  - '&e4. %ajleaderboards_board_bw1058_stats_total_kills_4_suffix%%ajleaderboards_board_bw1058_stats_total_kills_4_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_4_value%{update:2}'
+  - ''
+  - '&e5. %ajleaderboards_board_bw1058_stats_total_kills_5_suffix%%ajleaderboards_board_bw1058_stats_total_kills_5_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_5_value%{update:2}'
+  - ''
+  - '&e6. %ajleaderboards_board_bw1058_stats_total_kills_6_suffix%%ajleaderboards_board_bw1058_stats_total_kills_6_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_6_value%{update:2}'
+  - ''
+  - '&e7. %ajleaderboards_board_bw1058_stats_total_kills_7_suffix%%ajleaderboards_board_bw1058_stats_total_kills_7_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_7_value%{update:2}'
+  - ''
+  - '&e8. %ajleaderboards_board_bw1058_stats_total_kills_8_suffix%%ajleaderboards_board_bw1058_stats_total_kills_8_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_8_value%{update:2}'
+  - ''
+  - '&e9. %ajleaderboards_board_bw1058_stats_total_kills_9_suffix%%ajleaderboards_board_bw1058_stats_total_kills_9_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_9_value%{update:2}'
+  - ''
+  - '&e10. %ajleaderboards_board_bw1058_stats_total_kills_10_suffix%%ajleaderboards_board_bw1058_stats_total_kills_10_name%
+  &7- &e%ajleaderboards_board_bw1058_stats_total_kills_10_value%{update:2}'
